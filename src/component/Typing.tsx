@@ -10,7 +10,7 @@ interface Word {
 
 export default function Typing({ tag }: { tag: string }) {
   const [randomWords, setRandomWords] = useState<Word[]>([])
-  const [wordIdx, setWordIdx] = useState(0)
+  const [wordIdx, setWordIdx] = useState(-1)
   const [currentWord, setCurrentWord] = useState<string>('')
   const [inputValues, setInputValues] = useState<string[]>([])
   const [hiddenWord, setHiddenWord] = useState('')
@@ -41,7 +41,7 @@ export default function Typing({ tag }: { tag: string }) {
 
   const handlePlayAgain = () => {
     initializeGame()
-    setWordIdx(0)
+    setWordIdx(-1)
     setInputValues([])
     setHiddenWord('')
     setStarted(false)
@@ -85,7 +85,7 @@ export default function Typing({ tag }: { tag: string }) {
     if (e.key === 'Enter') {
       const inputWord = inputValues.join('')
       if (inputWord.toLowerCase() === currentWord.toLowerCase()) {
-        setScore(score + 1)
+        setScore((prevScore) => prevScore + 1)
       } else {
         setWrongAnswers([...wrongAnswers, currentWord])
       }
