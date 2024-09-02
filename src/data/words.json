@@ -1,0 +1,962 @@
+[
+  {
+    "text": "one",
+    "pronunciation": "วัน",
+    "th": "หนึ่ง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "two",
+    "pronunciation": "ทรู",
+    "th": "สอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "three",
+    "pronunciation": "ทรี",
+    "th": "สาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "four",
+    "pronunciation": "โฟร์",
+    "th": "สี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "five",
+    "pronunciation": "ไฟว์",
+    "th": "ห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "six",
+    "pronunciation": "ซิกซ์",
+    "th": "หก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seven",
+    "pronunciation": "เซเว่น",
+    "th": "เจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eight",
+    "pronunciation": "เอท",
+    "th": "แปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "nine",
+    "pronunciation": "ไนน์",
+    "th": "เก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ten",
+    "pronunciation": "เท็น",
+    "th": "สิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "apple",
+    "pronunciation": "แอปเปิ้ล",
+    "th": "แอปเปิ้ล",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "banana",
+    "pronunciation": "บานาน่า",
+    "th": "กล้วย",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "grape",
+    "pronunciation": "เกรป",
+    "th": "องุ่น",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "orange",
+    "pronunciation": "ออเรนจ์",
+    "th": "ส้ม",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "watermelon",
+    "pronunciation": "วอเตอร์เมลอน",
+    "th": "แตงโม",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "strawberry",
+    "pronunciation": "สตรอเบอร์รี่",
+    "th": "สตรอเบอร์รี่",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "pineapple",
+    "pronunciation": "ไพน์แอปเปิ้ล",
+    "th": "สับปะรด",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "mango",
+    "pronunciation": "แมงโก้",
+    "th": "มะม่วง",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "cherry",
+    "pronunciation": "เชอร์รี่",
+    "th": "เชอร์รี่",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "lemon",
+    "pronunciation": "เลมอน",
+    "th": "มะนาว",
+    "tags": [
+      "fruit"
+    ]
+  },
+  {
+    "text": "car",
+    "pronunciation": "คาร์",
+    "th": "รถยนต์",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "bus",
+    "pronunciation": "บัส",
+    "th": "รถบัส",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "bicycle",
+    "pronunciation": "ไบซิเคิล",
+    "th": "จักรยาน",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "motorcycle",
+    "pronunciation": "มอเตอร์ไซเคิล",
+    "th": "รถจักรยานยนต์",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "airplane",
+    "pronunciation": "แอร์เพลน",
+    "th": "เครื่องบิน",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "train",
+    "pronunciation": "เทรน",
+    "th": "รถไฟ",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "boat",
+    "pronunciation": "โบ๊ท",
+    "th": "เรือ",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "ship",
+    "pronunciation": "ชิพ",
+    "th": "เรือ",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "helicopter",
+    "pronunciation": "เฮลิคอปเตอร์",
+    "th": "เฮลิคอปเตอร์",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "truck",
+    "pronunciation": "ทรัค",
+    "th": "รถบรรทุก",
+    "tags": [
+      "vehicle"
+    ]
+  },
+  {
+    "text": "cat",
+    "pronunciation": "แคท",
+    "th": "แมว",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "dog",
+    "pronunciation": "ด็อก",
+    "th": "สุนัข",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "elephant",
+    "pronunciation": "เอเลเฟนท์",
+    "th": "ช้าง",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "tiger",
+    "pronunciation": "ไทเกอร์",
+    "th": "เสือ",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "lion",
+    "pronunciation": "ไลออน",
+    "th": "สิงโต",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "monkey",
+    "pronunciation": "มังกี้",
+    "th": "ลิง",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "giraffe",
+    "pronunciation": "จิราฟ",
+    "th": "ยีราฟ",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "zebra",
+    "pronunciation": "ซีบรา",
+    "th": "ม้าลาย",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "bear",
+    "pronunciation": "แบร์",
+    "th": "หมี",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "rabbit",
+    "pronunciation": "แรบบิท",
+    "th": "กระต่าย",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "text": "house",
+    "pronunciation": "เฮาส์",
+    "th": "บ้าน",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "school",
+    "pronunciation": "สคูล",
+    "th": "โรงเรียน",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "hospital",
+    "pronunciation": "ฮอสพิทัล",
+    "th": "โรงพยาบาล",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "market",
+    "pronunciation": "มาร์เก็ต",
+    "th": "ตลาด",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "restaurant",
+    "pronunciation": "เรสเตอรองท์",
+    "th": "ร้านอาหาร",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "hotel",
+    "pronunciation": "โฮเทล",
+    "th": "โรงแรม",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "park",
+    "pronunciation": "พาร์ค",
+    "th": "สวนสาธารณะ",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "library",
+    "pronunciation": "ไลบรารี่",
+    "th": "ห้องสมุด",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "bank",
+    "pronunciation": "แบงค์",
+    "th": "ธนาคาร",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "office",
+    "pronunciation": "ออฟฟิศ",
+    "th": "สำนักงาน",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "text": "red",
+    "pronunciation": "เรด",
+    "th": "สีแดง",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "blue",
+    "pronunciation": "บลู",
+    "th": "สีน้ำเงิน",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "green",
+    "pronunciation": "กรีน",
+    "th": "สีเขียว",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "yellow",
+    "pronunciation": "เยลโลว์",
+    "th": "สีเหลือง",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "black",
+    "pronunciation": "แบล็ค",
+    "th": "สีดำ",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "white",
+    "pronunciation": "ไวท์",
+    "th": "สีขาว",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "pink",
+    "pronunciation": "พิงค์",
+    "th": "สีชมพู",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "purple",
+    "pronunciation": "เพอร์เพิล",
+    "th": "สีม่วง",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "orange",
+    "pronunciation": "ออเรนจ์",
+    "th": "สีส้ม",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "brown",
+    "pronunciation": "บราวน์",
+    "th": "สีน้ำตาล",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "circle",
+    "pronunciation": "เซอร์เคิล",
+    "th": "วงกลม",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "square",
+    "pronunciation": "สแควร์",
+    "th": "สี่เหลี่ยมจัตุรัส",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "triangle",
+    "pronunciation": "ไทรแองเกิล",
+    "th": "สามเหลี่ยม",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "rectangle",
+    "pronunciation": "เรคแทงเกิล",
+    "th": "สี่เหลี่ยมผืนผ้า",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "oval",
+    "pronunciation": "โอวัล",
+    "th": "วงรี",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "star",
+    "pronunciation": "สตาร์",
+    "th": "ดาว",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "heart",
+    "pronunciation": "ฮาร์ท",
+    "th": "หัวใจ",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "diamond",
+    "pronunciation": "ไดมอนด์",
+    "th": "เพชร",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "hexagon",
+    "pronunciation": "เฮกซากอน",
+    "th": "หกเหลี่ยม",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "pentagon",
+    "pronunciation": "เพนทากอน",
+    "th": "ห้าเหลี่ยม",
+    "tags": [
+      "shape"
+    ]
+  },
+  {
+    "text": "run",
+    "pronunciation": "รัน",
+    "th": "วิ่ง",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "walk",
+    "pronunciation": "วอล์ค",
+    "th": "เดิน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "jump",
+    "pronunciation": "จัมพ์",
+    "th": "กระโดด",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "sit",
+    "pronunciation": "ซิท",
+    "th": "นั่ง",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "stand",
+    "pronunciation": "สแตนด์",
+    "th": "ยืน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "eat",
+    "pronunciation": "อีท",
+    "th": "กิน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "drink",
+    "pronunciation": "ดริ๊งค์",
+    "th": "ดื่ม",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "sleep",
+    "pronunciation": "สลีพ",
+    "th": "นอน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "read",
+    "pronunciation": "รีด",
+    "th": "อ่าน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "write",
+    "pronunciation": "ไรท์",
+    "th": "เขียน",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "happy",
+    "pronunciation": "แฮปปี้",
+    "th": "มีความสุข",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "sad",
+    "pronunciation": "แซด",
+    "th": "เศร้า",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "angry",
+    "pronunciation": "แองกรี้",
+    "th": "โกรธ",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "scared",
+    "pronunciation": "สแคร์ด",
+    "th": "กลัว",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "surprised",
+    "pronunciation": "เซอร์ไพรส์",
+    "th": "ประหลาดใจ",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "bored",
+    "pronunciation": "บอร์ด",
+    "th": "เบื่อ",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "excited",
+    "pronunciation": "เอ็กไซท์",
+    "th": "ตื่นเต้น",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "nervous",
+    "pronunciation": "เนอร์เวิส",
+    "th": "ประหม่า",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "tired",
+    "pronunciation": "ไทร์ด",
+    "th": "เหนื่อย",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "confused",
+    "pronunciation": "คอนฟิวส์",
+    "th": "สับสน",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "text": "book",
+    "pronunciation": "บุ๊ค",
+    "th": "หนังสือ",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "pen",
+    "pronunciation": "เพน",
+    "th": "ปากกา",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "pencil",
+    "pronunciation": "เพนซิล",
+    "th": "ดินสอ",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "table",
+    "pronunciation": "เทเบิล",
+    "th": "โต๊ะ",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "chair",
+    "pronunciation": "แชร์",
+    "th": "เก้าอี้",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "computer",
+    "pronunciation": "คอมพิวเตอร์",
+    "th": "คอมพิวเตอร์",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "phone",
+    "pronunciation": "โฟน",
+    "th": "โทรศัพท์",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "television",
+    "pronunciation": "เทเลวิชั่น",
+    "th": "โทรทัศน์",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "lamp",
+    "pronunciation": "แลมป์",
+    "th": "โคมไฟ",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "clock",
+    "pronunciation": "คล๊อค",
+    "th": "นาฬิกา",
+    "tags": [
+      "object"
+    ]
+  },
+  {
+    "text": "sun",
+    "pronunciation": "ซัน",
+    "th": "ดวงอาทิตย์",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "moon",
+    "pronunciation": "มูน",
+    "th": "ดวงจันทร์",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "star",
+    "pronunciation": "สตาร์",
+    "th": "ดาว",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "tree",
+    "pronunciation": "ทรี",
+    "th": "ต้นไม้",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "flower",
+    "pronunciation": "ฟลาวเวอร์",
+    "th": "ดอกไม้",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "grass",
+    "pronunciation": "กราส",
+    "th": "หญ้า",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "river",
+    "pronunciation": "ริเวอร์",
+    "th": "แม่น้ำ",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "mountain",
+    "pronunciation": "เมาเทน",
+    "th": "ภูเขา",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "ocean",
+    "pronunciation": "โอเชียน",
+    "th": "มหาสมุทร",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "rain",
+    "pronunciation": "เรน",
+    "th": "ฝน",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "text": "family",
+    "pronunciation": "แฟมิลี่",
+    "th": "ครอบครัว",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "friend",
+    "pronunciation": "เฟรนด์",
+    "th": "เพื่อน",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "teacher",
+    "pronunciation": "ทีเชอร์",
+    "th": "ครู",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "student",
+    "pronunciation": "สตูเดนท์",
+    "th": "นักเรียน",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "doctor",
+    "pronunciation": "ด็อกเตอร์",
+    "th": "หมอ",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "nurse",
+    "pronunciation": "เนิร์ส",
+    "th": "พยาบาล",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "police",
+    "pronunciation": "โพลิซ",
+    "th": "ตำรวจ",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "firefighter",
+    "pronunciation": "ไฟร์ไฟท์เตอร์",
+    "th": "นักดับเพลิง",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "chef",
+    "pronunciation": "เชฟ",
+    "th": "พ่อครัว",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "artist",
+    "pronunciation": "อาร์ทิสต์",
+    "th": "ศิลปิน",
+    "tags": [
+      "people"
+    ]
+  }
+]
