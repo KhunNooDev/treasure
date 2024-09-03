@@ -80,6 +80,326 @@
     ]
   },
   {
+    "text": "eleven",
+    "pronunciation": "อีเลฟเว่น",
+    "th": "สิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twelve",
+    "pronunciation": "ทเวลฟ์",
+    "th": "สิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirteen",
+    "pronunciation": "เธอร์ทีน",
+    "th": "สิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fourteen",
+    "pronunciation": "ฟอร์ทีน",
+    "th": "สิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifteen",
+    "pronunciation": "ฟิฟทีน",
+    "th": "สิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixteen",
+    "pronunciation": "ซิกซ์ทีน",
+    "th": "สิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventeen",
+    "pronunciation": "เซเว่นทีน",
+    "th": "สิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighteen",
+    "pronunciation": "เอททีน",
+    "th": "สิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "nineteen",
+    "pronunciation": "ไนน์ทีน",
+    "th": "สิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty",
+    "pronunciation": "ทเวนตี้",
+    "th": "ยี่สิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "day",
+    "pronunciation": "เดย์",
+    "th": "วัน",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "week",
+    "pronunciation": "วีค",
+    "th": "สัปดาห์",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "month",
+    "pronunciation": "มันธ์",
+    "th": "เดือน",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "year",
+    "pronunciation": "เยียร์",
+    "th": "ปี",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "hour",
+    "pronunciation": "อาวเออร์",
+    "th": "ชั่วโมง",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "minute",
+    "pronunciation": "มินิท",
+    "th": "นาที",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "second",
+    "pronunciation": "เซคเคินด์",
+    "th": "วินาที",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "morning",
+    "pronunciation": "มอร์นิ่ง",
+    "th": "เช้า",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "afternoon",
+    "pronunciation": "อาฟเตอร์นูน",
+    "th": "บ่าย",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "evening",
+    "pronunciation": "อีฟนิ่ง",
+    "th": "เย็น",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "night",
+    "pronunciation": "ไนท์",
+    "th": "กลางคืน",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "text": "Monday",
+    "pronunciation": "มันเดย์",
+    "th": "วันจันทร์",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Tuesday",
+    "pronunciation": "ทิวส์เดย์",
+    "th": "วันอังคาร",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Wednesday",
+    "pronunciation": "เวนส์เดย์",
+    "th": "วันพุธ",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Thursday",
+    "pronunciation": "เธิร์สเดย์",
+    "th": "วันพฤหัสบดี",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Friday",
+    "pronunciation": "ฟรายเดย์",
+    "th": "วันศุกร์",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Saturday",
+    "pronunciation": "แซทเทอร์เดย์",
+    "th": "วันเสาร์",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "Sunday",
+    "pronunciation": "ซันเดย์",
+    "th": "วันอาทิตย์",
+    "tags": [
+      "day"
+    ]
+  },
+  {
+    "text": "January",
+    "pronunciation": "แจนยัวรี",
+    "th": "มกราคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "February",
+    "pronunciation": "เฟบรูเอรี",
+    "th": "กุมภาพันธ์",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "March",
+    "pronunciation": "มาร์ช",
+    "th": "มีนาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "April",
+    "pronunciation": "เอพริล",
+    "th": "เมษายน",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "May",
+    "pronunciation": "เมย์",
+    "th": "พฤษภาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "June",
+    "pronunciation": "จูน",
+    "th": "มิถุนายน",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "July",
+    "pronunciation": "จูไล",
+    "th": "กรกฎาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "August",
+    "pronunciation": "ออกัสท์",
+    "th": "สิงหาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "September",
+    "pronunciation": "เซพเทมเบอร์",
+    "th": "กันยายน",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "October",
+    "pronunciation": "ออคโทเบอร์",
+    "th": "ตุลาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "November",
+    "pronunciation": "โนเวมเบอร์",
+    "th": "พฤศจิกายน",
+    "tags": [
+      "month"
+    ]
+  },
+  {
+    "text": "December",
+    "pronunciation": "ดีเซมเบอร์",
+    "th": "ธันวาคม",
+    "tags": [
+      "month"
+    ]
+  },
+  {
     "text": "apple",
     "pronunciation": "แอปเปิ้ล",
     "th": "แอปเปิ้ล",
@@ -475,6 +795,46 @@
     "text": "brown",
     "pronunciation": "บราวน์",
     "th": "สีน้ำตาล",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "gray",
+    "pronunciation": "เกรย์",
+    "th": "สีเทา",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "cyan",
+    "pronunciation": "ไซแอน",
+    "th": "สีฟ้า",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "magenta",
+    "pronunciation": "มาเจนต้า",
+    "th": "สีม่วงแดง",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "beige",
+    "pronunciation": "เบจ",
+    "th": "สีเบจ",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "text": "maroon",
+    "pronunciation": "มารูน",
+    "th": "สีแดงเข้ม",
     "tags": [
       "color"
     ]
@@ -957,6 +1317,174 @@
     "th": "ศิลปิน",
     "tags": [
       "people"
+    ]
+  },
+  {
+    "text": "engineer",
+    "pronunciation": "เอนจิเนียร์",
+    "th": "วิศวกร",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "pilot",
+    "pronunciation": "ไพลอท",
+    "th": "นักบิน",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "lawyer",
+    "pronunciation": "ลอเยอร์",
+    "th": "ทนายความ",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "dentist",
+    "pronunciation": "เดนทิสต์",
+    "th": "ทันตแพทย์",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "scientist",
+    "pronunciation": "ไซเอนทิสต์",
+    "th": "นักวิทยาศาสตร์",
+    "tags": [
+      "people"
+    ]
+  },
+  {
+    "text": "kitchen",
+    "pronunciation": "คิทเช่น",
+    "th": "ห้องครัว",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "bedroom",
+    "pronunciation": "เบดรูม",
+    "th": "ห้องนอน",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "bathroom",
+    "pronunciation": "บาธรูม",
+    "th": "ห้องน้ำ",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "living room",
+    "pronunciation": "ลิฟวิ่งรูม",
+    "th": "ห้องนั่งเล่น",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "dining room",
+    "pronunciation": "ไดนิ่งรูม",
+    "th": "ห้องรับประทานอาหาร",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "office",
+    "pronunciation": "ออฟฟิศ",
+    "th": "สำนักงาน",
+    "tags": [
+      "room"
+    ]
+  },
+  {
+    "text": "head",
+    "pronunciation": "เฮด",
+    "th": "หัว",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "arm",
+    "pronunciation": "อาร์ม",
+    "th": "แขน",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "leg",
+    "pronunciation": "เลก",
+    "th": "ขา",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "hand",
+    "pronunciation": "แฮนด์",
+    "th": "มือ",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "foot",
+    "pronunciation": "ฟุต",
+    "th": "เท้า",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "eye",
+    "pronunciation": "อาย",
+    "th": "ตา",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "ear",
+    "pronunciation": "เอียร์",
+    "th": "หู",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "nose",
+    "pronunciation": "โนส",
+    "th": "จมูก",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "mouth",
+    "pronunciation": "เมาธ์",
+    "th": "ปาก",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "text": "finger",
+    "pronunciation": "ฟิงเกอร์",
+    "th": "นิ้วมือ",
+    "tags": [
+      "body"
     ]
   }
 ]

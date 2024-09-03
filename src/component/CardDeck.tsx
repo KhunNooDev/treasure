@@ -6,7 +6,7 @@ export default function CardDeck({ tag, count }: { tag: string; count: number })
   const router = useRouter()
 
   const handlePlayTyping = () => {
-    router.push(`/typing?tag=${tag}`)
+    router.push(`/typing/${tag}`)
   }
 
   return (

@@ -1,9 +1,13 @@
 'use client'
 import React, { useRef, useState, useEffect } from 'react'
-import { handleTTS } from '@/util/textToSpeechUtils'
 import { FaPlay, FaHome, FaRedo, FaVolumeUp } from 'react-icons/fa'
-import words from '@/data/words.json'
 import { useRouter } from 'next/navigation'
+import { useStore } from '@nanostores/react'
+import _ from 'lodash'
+import words from '@/data/words.json'
+import { handleTTS } from '@/util/textToSpeechUtils'
+import { $user, saveScore } from '@/store/userStore'
+import { setHideNav } from '@/store/layoutStore'
 
 interface Word {
   text: string
@@ -11,8 +15,9 @@ interface Word {
 
 export default function Typing({ tag }: { tag: string }) {
   const router = useRouter()
+  const user = useStore($user)
   const [randomWords, setRandomWords] = useState<Word[]>([])
-  const [wordIdx, setWordIdx] = useState(-1)
+  const [wordIdx, setWordIdx] = useState(0)
   const [currentWord, setCurrentWord] = useState<string>('')
   const [inputValues, setInputValues] = useState<string[]>([])
   const [hiddenWord, setHiddenWord] = useState('')
@@ -24,6 +29,10 @@ export default function Typing({ tag }: { tag: string }) {
 
   useEffect(() => {
     initializeGame()
+    setHideNav(true)
+    return () => {
+      setHideNav(false)
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
@@ -43,7 +52,7 @@ export default function Typing({ tag }: { tag: string }) {
 
   const handlePlayAgain = () => {
     initializeGame()
-    setWordIdx(-1)
+    setWordIdx(0)
     setInputValues([])
     setHiddenWord('')
     setStarted(false)
@@ -52,12 +61,13 @@ export default function Typing({ tag }: { tag: string }) {
     setWrongAnswers([])
   }
 
-  const nextWord = () => {
-    setWordIdx((prevIdx) => prevIdx + 1)
-    if (wordIdx >= randomWords.length - 1) {
+  const nextWord = (currentIdx: number = 0, currentScore: number = 0) => {
+    setWordIdx(currentIdx)
+    if (currentIdx > randomWords.length - 1) {
       setEndGame(true)
+      saveScore(tag, currentScore)
     } else {
-      const word = randomWords[wordIdx + 1]?.text
+      const word = randomWords[currentIdx]?.text
       setCurrentWord(word)
       inputsRef.current[0]?.focus()
       setHiddenWord(hideLetters(word))
@@ -85,14 +95,16 @@ export default function Typing({ tag }: { tag: string }) {
       }
     }
     if (e.key === 'Enter') {
+      let _score = score
       const inputWord = inputValues.join('')
       if (inputWord.toLowerCase() === currentWord.toLowerCase()) {
-        setScore((prevScore) => prevScore + 1)
+        _score += 1
+        setScore(_score)
       } else {
         setWrongAnswers([...wrongAnswers, currentWord])
       }
       resetInputs()
-      nextWord()
+      nextWord(wordIdx + 1, _score)
     }
   }
 
@@ -120,6 +132,10 @@ export default function Typing({ tag }: { tag: string }) {
       {!started && !endGame && (
         <section className='flex flex-col items-center gap-2'>
           <h1 className='text-2xl font-bold'>Typing Game</h1>
+          <p className='text-lg font-bold'>Tag: {_.startCase(tag)}</p>
+          <p>
+            {user.performance[tag] || 0} / {words.filter((word) => word.tags.includes(tag)).length}
+          </p>
           <p>Click the button below to start the game.</p>
           <div className='flex flex-col justify-center gap-2'>
             <button
@@ -139,7 +155,7 @@ export default function Typing({ tag }: { tag: string }) {
       )}
       {started && hiddenWord && !endGame && (
         <section className='flex flex-col items-center gap-2'>
-          <div className='flex gap-2'>
+          <div className='flex flex-col items-center gap-2'>
             <h1 className='text-4xl font-bold'>{hiddenWord}</h1>
             <button
               onClick={(e) => {
