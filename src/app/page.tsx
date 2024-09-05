@@ -1,9 +1,16 @@
 'use client'
-import CardDeck from '@/component/CardDeck'
-import words from '@/data/words.json'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+import _ from 'lodash'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
+import words from '@/data/words.json'
+import { SearchIcon } from 'lucide-react'
 
 export default function Home() {
+  const router = useRouter()
+
   // Get all unique tags from words.json
   const uniqueTags = Array.from(new Set(words.flatMap((word) => word.tags)))
   // Count of words in each tag
@@ -22,19 +29,22 @@ export default function Home() {
 
   return (
     <main className='flex flex-col gap-4 p-4'>
-      <div className='flex justify-center gap-1'>
-        <input
-          type='text'
-          placeholder='Search'
-          className='rounded-md border p-2'
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+      <Input
+        placeholder='Search'
+        onChange={(e) => setSearchTerm(e.target.value)}
+        startIcon={<SearchIcon size={16} />}
+      />
       <div className='flex flex-wrap justify-center gap-4'>
-        {/* map filtered tags */}
         {filteredTags.map((tag, idx) => (
-          <CardDeck key={idx} tag={tag} count={tagCounts[tag]} />
+          <Card key={idx}>
+            <CardHeader>
+              <CardTitle>{_.startCase(tag)}</CardTitle>
+              <CardDescription>{tagCounts[tag]} words</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Button onClick={() => router.push(`/typing/${tag}`)}>Play Typing</Button>
+            </CardContent>
+          </Card>
         ))}
       </div>
     </main>

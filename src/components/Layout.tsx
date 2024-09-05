@@ -1,19 +1,21 @@
 'use client'
 import { usePathname, useRouter } from 'next/navigation'
-import { FaHome, FaSearch, FaPlus, FaBell, FaUser } from 'react-icons/fa'
-import { cn } from '@/util/cn'
+import { cn } from '@/lib/utils'
 import { useStore } from '@nanostores/react'
 import { $hideNav } from '@/store/layoutStore'
+import { HomeIcon, SearchIcon, PlusIcon, BellIcon, UserIcon } from 'lucide-react'
+import { ThemeProvider } from 'next-themes'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const router = useRouter()
   const pathname = usePathname()
   const hideNav = useStore($hideNav)
+
   return (
     <div className='flex h-screen flex-col'>
       <div className={cn('flex-grow overflow-auto pb-14', { 'pb-0': hideNav })}>{children}</div>
       {!hideNav && (
-        <nav className='fixed bottom-0 left-0 right-0 border-t border-gray-200 bg-white'>
+        <nav className='fixed bottom-0 left-0 right-0 rounded-t-lg border-t border-gray-200 bg-white dark:bg-black'>
           <ul className='flex justify-around'>
             <li
               title='Home'
@@ -22,16 +24,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 'border-t-blue-500 text-blue-500': pathname === '/',
               })}
             >
-              <FaHome size={24} />
+              <HomeIcon size={20} />
             </li>
             <li className='nav-item' title='Search'>
-              <FaSearch size={24} />
+              <SearchIcon size={20} />
             </li>
             <li className='nav-item' title='Add'>
-              <FaPlus size={24} />
+              <PlusIcon size={20} />
             </li>
             <li className='nav-item' title='Notifications'>
-              <FaBell size={24} />
+              <BellIcon size={20} />
             </li>
             <li
               title='Profile'
@@ -40,11 +42,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 'border-t-blue-500 text-blue-500': pathname === '/profile',
               })}
             >
-              <FaUser size={24} />
+              <UserIcon size={20} />
             </li>
           </ul>
         </nav>
       )}
     </div>
+  )
+}
+
+export function Providers({ children }: { children: React.ReactNode }) {
+  return (
+    <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
+      {children}
+    </ThemeProvider>
   )
 }

@@ -1,10 +1,12 @@
 'use client'
 import { useRouter } from 'next/navigation'
-import { FaHome } from 'react-icons/fa'
 import { useStore } from '@nanostores/react'
 import words from '@/data/words.json'
 import { $user } from '@/store/userStore'
 import _ from 'lodash'
+import { HomeIcon } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { ModeToggle } from '@/components/ModeToggle'
 
 export default function Profile() {
   const router = useRouter()
@@ -14,6 +16,7 @@ export default function Profile() {
   return (
     <main className='flex flex-col gap-4 p-4'>
       <h1 className='text-2xl font-bold'>Profile</h1>
+      <ModeToggle />
       <section className='flex flex-col gap-2'>
         <h2 className='text-xl font-semibold'>Performance</h2>
         <div className='p-4'>
@@ -30,12 +33,9 @@ export default function Profile() {
           )}
         </div>
       </section>
-      <button
-        onClick={() => router.push('/')}
-        className='mt-4 flex items-center justify-center gap-2 rounded-md border border-gray-300 p-2'
-      >
-        <FaHome /> Back to Home
-      </button>
+      <Button onClick={() => router.push('/')}>
+        <HomeIcon size={16} className='mr-2' /> Back to Home
+      </Button>
     </main>
   )
 }

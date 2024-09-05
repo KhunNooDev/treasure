@@ -1,5 +1,5 @@
 import React from 'react'
-import Typing from '@/component/Typing'
+import Typing from '@/components/Typing'
 
 export default function TypingPage({ params }: { params: { tag: string } }) {
   const tag = params.tag

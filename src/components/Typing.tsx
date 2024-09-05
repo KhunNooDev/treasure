@@ -1,14 +1,14 @@
 'use client'
 import React, { useRef, useState, useEffect } from 'react'
-import { FaPlay, FaHome, FaRedo, FaVolumeUp } from 'react-icons/fa'
 import { useRouter } from 'next/navigation'
 import { useStore } from '@nanostores/react'
 import _ from 'lodash'
 import words from '@/data/words.json'
-import { handleTTS } from '@/util/textToSpeechUtils'
+import { handleTTS } from '@/lib/textToSpeechUtils'
 import { $user, saveScore } from '@/store/userStore'
 import { setHideNav } from '@/store/layoutStore'
-
+import { PlayIcon, HomeIcon, Volume2Icon, RotateCcwIcon } from 'lucide-react'
+import { Button } from './ui/button'
 interface Word {
   text: string
 }
@@ -138,18 +138,12 @@ export default function Typing({ tag }: { tag: string }) {
           </p>
           <p>Click the button below to start the game.</p>
           <div className='flex flex-col justify-center gap-2'>
-            <button
-              onClick={handleStart}
-              className='flex items-center justify-center gap-2 rounded-md border border-gray-300 p-2'
-            >
-              <FaPlay /> <p>{`Let's Start`}</p>
-            </button>
-            <button
-              onClick={() => router.push('/')}
-              className='flex items-center justify-center gap-2 rounded-md border border-gray-300 p-2'
-            >
-              <FaHome /> Back to Home
-            </button>
+            <Button onClick={handleStart}>
+              <PlayIcon size={16} className='mr-2' /> <p>{`Let's Start`}</p>
+            </Button>
+            <Button onClick={() => router.push('/')}>
+              <HomeIcon size={16} className='mr-2' /> Back to Home
+            </Button>
           </div>
         </section>
       )}
@@ -157,16 +151,17 @@ export default function Typing({ tag }: { tag: string }) {
         <section className='flex flex-col items-center gap-2'>
           <div className='flex flex-col items-center gap-2'>
             <h1 className='text-4xl font-bold'>{hiddenWord}</h1>
-            <button
+            <Button
               onClick={(e) => {
                 e.currentTarget.blur()
                 inputsRef.current[0]?.focus()
                 handleTTS(currentWord)
               }}
-              className='flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 hover:bg-gray-100'
+              size='icon'
+              className='rounded-full'
             >
-              <FaVolumeUp />
-            </button>
+              <Volume2Icon />
+            </Button>
           </div>
 
           <div className='flex flex-wrap justify-center gap-1'>
@@ -206,18 +201,12 @@ export default function Typing({ tag }: { tag: string }) {
             </>
           )}
           <div className='flex flex-col justify-center gap-2'>
-            <button
-              onClick={handlePlayAgain}
-              className='flex items-center justify-center gap-2 rounded-md border border-gray-300 p-2'
-            >
-              <FaRedo /> Play Again
-            </button>
-            <button
-              onClick={() => router.push('/')}
-              className='flex items-center justify-center gap-2 rounded-md border border-gray-300 p-2'
-            >
-              <FaHome /> Back to Home
-            </button>
+            <Button onClick={handlePlayAgain}>
+              <RotateCcwIcon size={16} className='mr-2' /> Play Again
+            </Button>
+            <Button onClick={() => router.push('/')}>
+              <HomeIcon size={16} className='mr-2' /> Back to Home
+            </Button>
           </div>
         </section>
       )}
