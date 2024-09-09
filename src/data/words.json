@@ -160,6 +160,686 @@
     ]
   },
   {
+    "text": "twenty-one",
+    "pronunciation": "ทเวนตี้-วัน",
+    "th": "ยี่สิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-two",
+    "pronunciation": "ทเวนตี้-ทรู",
+    "th": "ยี่สิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-three",
+    "pronunciation": "ทเวนตี้-ทรี",
+    "th": "ยี่สิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-four",
+    "pronunciation": "ทเวนตี้-โฟร์",
+    "th": "ยี่สิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-five",
+    "pronunciation": "ทเวนตี้-ไฟว์",
+    "th": "ยี่สิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-six",
+    "pronunciation": "ทเวนตี้-ซิกซ์",
+    "th": "ยี่สิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-seven",
+    "pronunciation": "ทเวนตี้-เซเว่น",
+    "th": "ยี่สิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-eight",
+    "pronunciation": "ทเวนตี้-เอท",
+    "th": "ยี่สิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "twenty-nine",
+    "pronunciation": "ทเวนตี้-ไนน์",
+    "th": "ยี่สิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty",
+    "pronunciation": "เธอร์ตี้",
+    "th": "สามสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-one",
+    "pronunciation": "เธอร์ตี้-วัน",
+    "th": "สามสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-two",
+    "pronunciation": "เธอร์ตี้-ทรู",
+    "th": "สามสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-three",
+    "pronunciation": "เธอร์ตี้-ทรี",
+    "th": "สามสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-four",
+    "pronunciation": "เธอร์ตี้-โฟร์",
+    "th": "สามสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-five",
+    "pronunciation": "เธอร์ตี้-ไฟว์",
+    "th": "สามสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-six",
+    "pronunciation": "เธอร์ตี้-ซิกซ์",
+    "th": "สามสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-seven",
+    "pronunciation": "เธอร์ตี้-เซเว่น",
+    "th": "สามสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-eight",
+    "pronunciation": "เธอร์ตี้-เอท",
+    "th": "สามสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "thirty-nine",
+    "pronunciation": "เธอร์ตี้-ไนน์",
+    "th": "สามสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty",
+    "pronunciation": "ฟอร์ตี้",
+    "th": "สี่สิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-one",
+    "pronunciation": "ฟอร์ตี้-วัน",
+    "th": "สี่สิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-two",
+    "pronunciation": "ฟอร์ตี้-ทรู",
+    "th": "สี่สิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-three",
+    "pronunciation": "ฟอร์ตี้-ทรี",
+    "th": "สี่สิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-four",
+    "pronunciation": "ฟอร์ตี้-โฟร์",
+    "th": "สี่สิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-five",
+    "pronunciation": "ฟอร์ตี้-ไฟว์",
+    "th": "สี่สิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-six",
+    "pronunciation": "ฟอร์ตี้-ซิกซ์",
+    "th": "สี่สิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-seven",
+    "pronunciation": "ฟอร์ตี้-เซเว่น",
+    "th": "สี่สิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-eight",
+    "pronunciation": "ฟอร์ตี้-เอท",
+    "th": "สี่สิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "forty-nine",
+    "pronunciation": "ฟอร์ตี้-ไนน์",
+    "th": "สี่สิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty",
+    "pronunciation": "ฟิฟตี้",
+    "th": "ห้าสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-one",
+    "pronunciation": "ฟิฟตี้-วัน",
+    "th": "ห้าสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-two",
+    "pronunciation": "ฟิฟตี้-ทรู",
+    "th": "ห้าสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-three",
+    "pronunciation": "ฟิฟตี้-ทรี",
+    "th": "ห้าสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-four",
+    "pronunciation": "ฟิฟตี้-โฟร์",
+    "th": "ห้าสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-five",
+    "pronunciation": "ฟิฟตี้-ไฟว์",
+    "th": "ห้าสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-six",
+    "pronunciation": "ฟิฟตี้-ซิกซ์",
+    "th": "ห้าสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-seven",
+    "pronunciation": "ฟิฟตี้-เซเว่น",
+    "th": "ห้าสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-eight",
+    "pronunciation": "ฟิฟตี้-เอท",
+    "th": "ห้าสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "fifty-nine",
+    "pronunciation": "ฟิฟตี้-ไนน์",
+    "th": "ห้าสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty",
+    "pronunciation": "ซิกซ์ตี้",
+    "th": "หกสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-one",
+    "pronunciation": "ซิกซ์ตี้-วัน",
+    "th": "หกสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-two",
+    "pronunciation": "ซิกซ์ตี้-ทรู",
+    "th": "หกสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-three",
+    "pronunciation": "ซิกซ์ตี้-ทรี",
+    "th": "หกสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-four",
+    "pronunciation": "ซิกซ์ตี้-โฟร์",
+    "th": "หกสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-five",
+    "pronunciation": "ซิกซ์ตี้-ไฟว์",
+    "th": "หกสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-six",
+    "pronunciation": "ซิกซ์ตี้-ซิกซ์",
+    "th": "หกสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-seven",
+    "pronunciation": "ซิกซ์ตี้-เซเว่น",
+    "th": "หกสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-eight",
+    "pronunciation": "ซิกซ์ตี้-เอท",
+    "th": "หกสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "sixty-nine",
+    "pronunciation": "ซิกซ์ตี้-ไนน์",
+    "th": "หกสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy",
+    "pronunciation": "เซเว่นตี้",
+    "th": "เจ็ดสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-one",
+    "pronunciation": "เซเว่นตี้-วัน",
+    "th": "เจ็ดสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-two",
+    "pronunciation": "เซเว่นตี้-ทรู",
+    "th": "เจ็ดสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-three",
+    "pronunciation": "เซเว่นตี้-ทรี",
+    "th": "เจ็ดสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-four",
+    "pronunciation": "เซเว่นตี้-โฟร์",
+    "th": "เจ็ดสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-five",
+    "pronunciation": "เซเว่นตี้-ไฟว์",
+    "th": "เจ็ดสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-six",
+    "pronunciation": "เซเว่นตี้-ซิกซ์",
+    "th": "เจ็ดสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-seven",
+    "pronunciation": "เซเว่นตี้-เซเว่น",
+    "th": "เจ็ดสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-eight",
+    "pronunciation": "เซเว่นตี้-เอท",
+    "th": "เจ็ดสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "seventy-nine",
+    "pronunciation": "เซเว่นตี้-ไนน์",
+    "th": "เจ็ดสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty",
+    "pronunciation": "เอทตี้",
+    "th": "แปดสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-one",
+    "pronunciation": "เอทตี้-วัน",
+    "th": "แปดสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-two",
+    "pronunciation": "เอทตี้-ทรู",
+    "th": "แปดสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-three",
+    "pronunciation": "เอทตี้-ทรี",
+    "th": "แปดสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-four",
+    "pronunciation": "เอทตี้-โฟร์",
+    "th": "แปดสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-five",
+    "pronunciation": "เอทตี้-ไฟว์",
+    "th": "แปดสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-six",
+    "pronunciation": "เอทตี้-ซิกซ์",
+    "th": "แปดสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-seven",
+    "pronunciation": "เอทตี้-เซเว่น",
+    "th": "แปดสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-eight",
+    "pronunciation": "เอทตี้-เอท",
+    "th": "แปดสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "eighty-nine",
+    "pronunciation": "เอทตี้-ไนน์",
+    "th": "แปดสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety",
+    "pronunciation": "ไนน์ตี้",
+    "th": "เก้าสิบ",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-one",
+    "pronunciation": "ไนน์ตี้-วัน",
+    "th": "เก้าสิบเอ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-two",
+    "pronunciation": "ไนน์ตี้-ทรู",
+    "th": "เก้าสิบสอง",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-three",
+    "pronunciation": "ไนน์ตี้-ทรี",
+    "th": "เก้าสิบสาม",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-four",
+    "pronunciation": "ไนน์ตี้-โฟร์",
+    "th": "เก้าสิบสี่",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-five",
+    "pronunciation": "ไนน์ตี้-ไฟว์",
+    "th": "เก้าสิบห้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-six",
+    "pronunciation": "ไนน์ตี้-ซิกซ์",
+    "th": "เก้าสิบหก",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-seven",
+    "pronunciation": "ไนน์ตี้-เซเว่น",
+    "th": "เก้าสิบเจ็ด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-eight",
+    "pronunciation": "ไนน์ตี้-เอท",
+    "th": "เก้าสิบแปด",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ninety-nine",
+    "pronunciation": "ไนน์ตี้-ไนน์",
+    "th": "เก้าสิบเก้า",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "one hundred",
+    "pronunciation": "วัน ฮันเดร็ด",
+    "th": "หนึ่งร้อย",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "one thousand",
+    "pronunciation": "วัน เธาซันด์",
+    "th": "หนึ่งพัน",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ten thousand",
+    "pronunciation": "เท็น เธาซันด์",
+    "th": "หนึ่งหมื่น",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "one hundred thousand",
+    "pronunciation": "วัน ฮันเดร็ด เธาซันด์",
+    "th": "หนึ่งแสน",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "one million",
+    "pronunciation": "วัน มิลเลียน",
+    "th": "หนึ่งล้าน",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "text": "ten million",
+    "pronunciation": "เท็น มิลเลียน",
+    "th": "สิบล้าน",
+    "tags": [
+      "number"
+    ]
+  },
+  {
     "text": "day",
     "pronunciation": "เดย์",
     "th": "วัน",

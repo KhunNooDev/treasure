@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import dynamic from 'next/dynamic'
 import { Providers } from '@/components/Layout'
+import { cn } from '@/lib/utils'
 const Layout = dynamic(() => import('@/components/Layout'), { ssr: false })
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={cn(inter.className, 'overflow-hidden')}>
         <Providers>
           <Layout>{children}</Layout>
         </Providers>

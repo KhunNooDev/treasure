@@ -5,10 +5,11 @@ import { useStore } from '@nanostores/react'
 import _ from 'lodash'
 import words from '@/data/words.json'
 import { handleTTS } from '@/lib/textToSpeechUtils'
-import { $user, saveScore } from '@/store/userStore'
+import { $user, savePerformance } from '@/store/userStore'
 import { setHideNav } from '@/store/layoutStore'
 import { PlayIcon, HomeIcon, Volume2Icon, RotateCcwIcon } from 'lucide-react'
 import { Button } from './ui/button'
+import { Switch } from './ui/switch'
 interface Word {
   text: string
 }
@@ -25,6 +26,7 @@ export default function Typing({ tag }: { tag: string }) {
   const [endGame, setEndGame] = useState(false)
   const [score, setScore] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<string[]>([])
+  const [showFullWord, setShowFullWord] = useState(false)
   const inputsRef = useRef<(HTMLInputElement | null)[]>([])
 
   useEffect(() => {
@@ -65,7 +67,13 @@ export default function Typing({ tag }: { tag: string }) {
     setWordIdx(currentIdx)
     if (currentIdx > randomWords.length - 1) {
       setEndGame(true)
-      saveScore(tag, currentScore)
+      if (!showFullWord) {
+        //save only correct words
+        savePerformance(
+          tag,
+          randomWords.filter((_, idx) => !wrongAnswers.includes(randomWords[idx].text)).map((word) => word.text),
+        )
+      }
     } else {
       const word = randomWords[currentIdx]?.text
       setCurrentWord(word)
@@ -127,6 +135,8 @@ export default function Typing({ tag }: { tag: string }) {
     }
   }
 
+  const learnedWords = user.performance.find((p: { tag: string }) => p.tag === tag)?.learnedWords.length || 0
+  const totalWords = words.filter((word) => word.tags.includes(tag)).length
   return (
     <div className='flex justify-center'>
       {!started && !endGame && (
@@ -134,9 +144,15 @@ export default function Typing({ tag }: { tag: string }) {
           <h1 className='text-2xl font-bold'>Typing Game</h1>
           <p className='text-lg font-bold'>Tag: {_.startCase(tag)}</p>
           <p>
-            {user.performance[tag] || 0} / {words.filter((word) => word.tags.includes(tag)).length}
+            {learnedWords} / {totalWords}
           </p>
-          <p>Click the button below to start the game.</p>
+          <div className='flex items-center gap-2'>
+            <Switch checked={showFullWord} onCheckedChange={setShowFullWord} />
+            <div className='flex flex-col'>
+              <p>Show Full Word</p>
+              <p className='text-sm text-gray-500'>(For learning only, not saved)</p>
+            </div>
+          </div>
           <div className='flex flex-col justify-center gap-2'>
             <Button onClick={handleStart}>
               <PlayIcon size={16} className='mr-2' /> <p>{`Let's Start`}</p>
@@ -150,7 +166,7 @@ export default function Typing({ tag }: { tag: string }) {
       {started && hiddenWord && !endGame && (
         <section className='flex flex-col items-center gap-2'>
           <div className='flex flex-col items-center gap-2'>
-            <h1 className='text-4xl font-bold'>{hiddenWord}</h1>
+            <h1 className='text-4xl font-bold'>{showFullWord ? currentWord : hiddenWord}</h1>
             <Button
               onClick={(e) => {
                 e.currentTarget.blur()
