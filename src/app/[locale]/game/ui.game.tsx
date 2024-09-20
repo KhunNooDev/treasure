@@ -1,12 +1,13 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useTranslations } from 'next-intl'
 import { useRouter } from 'next/navigation'
+import { useState, useEffect } from 'react'
 import _ from 'lodash'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import words from '@/data/words.json'
-import { SearchIcon } from 'lucide-react'
+import { Search } from 'lucide-react'
 import {
   Pagination,
   PaginationContent,
@@ -20,7 +21,8 @@ import { Progress } from '@/components/ui/progress'
 import { useStore } from '@nanostores/react'
 import { $user } from '@/store/userStore'
 
-export default function Home() {
+export default function Index() {
+  const t = useTranslations('home')
   const router = useRouter()
   const user = useStore($user)
   const performance = user.performance
@@ -61,11 +63,7 @@ export default function Home() {
   }
   return (
     <main className='flex flex-col gap-4 p-4'>
-      <Input
-        placeholder='Search'
-        onChange={(e) => setSearchTerm(e.target.value)}
-        startIcon={<SearchIcon size={16} />}
-      />
+      <Input placeholder='Search' onChange={(e) => setSearchTerm(e.target.value)} startIcon={<Search size={16} />} />
       <div className='flex flex-wrap justify-center gap-4'>
         {currentTags.map((tag, idx) => (
           <Card key={idx}>
@@ -80,7 +78,7 @@ export default function Home() {
                   {getProgressByTag(tag).learnedWords} / {getProgressByTag(tag).totalWords} words learned
                 </div>
               </div>
-              <Button onClick={() => router.push(`/typing/${tag}`)}>Play Typing</Button>
+              <Button onClick={() => router.push(`/game/typing/${tag}`)}>Play Typing</Button>
             </CardContent>
           </Card>
         ))}

@@ -7,9 +7,10 @@ import words from '@/data/words.json'
 import { handleTTS } from '@/lib/textToSpeechUtils'
 import { $user, savePerformance } from '@/store/userStore'
 import { setHideNav } from '@/store/layoutStore'
-import { PlayIcon, HomeIcon, Volume2Icon, RotateCcwIcon } from 'lucide-react'
-import { Button } from './ui/button'
-import { Switch } from './ui/switch'
+import { Play, Home, Volume2, RotateCcw } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Switch } from '@/components/ui/switch'
+
 interface Word {
   text: string
 }
@@ -155,10 +156,10 @@ export default function Typing({ tag }: { tag: string }) {
           </div>
           <div className='flex flex-col justify-center gap-2'>
             <Button onClick={handleStart}>
-              <PlayIcon size={16} className='mr-2' /> <p>{`Let's Start`}</p>
+              <Play size={16} className='mr-2' /> <p>{`Let's Start`}</p>
             </Button>
             <Button onClick={() => router.push('/')}>
-              <HomeIcon size={16} className='mr-2' /> Back to Home
+              <Home size={16} className='mr-2' /> Back to Home
             </Button>
           </div>
         </section>
@@ -176,7 +177,7 @@ export default function Typing({ tag }: { tag: string }) {
               size='icon'
               className='rounded-full'
             >
-              <Volume2Icon />
+              <Volume2 />
             </Button>
           </div>
 
@@ -218,10 +219,10 @@ export default function Typing({ tag }: { tag: string }) {
           )}
           <div className='flex flex-col justify-center gap-2'>
             <Button onClick={handlePlayAgain}>
-              <RotateCcwIcon size={16} className='mr-2' /> Play Again
+              <RotateCcw size={16} className='mr-2' /> Play Again
             </Button>
             <Button onClick={() => router.push('/')}>
-              <HomeIcon size={16} className='mr-2' /> Back to Home
+              <Home size={16} className='mr-2' /> Back to Home
             </Button>
           </div>
         </section>

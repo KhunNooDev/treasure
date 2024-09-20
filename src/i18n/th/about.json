@@ -1,0 +1,10 @@
+{
+  "about": {
+    "metadata": {
+      "title": "เว็บ | เกี่ยวกับ",
+      "description": "เว็บเกี่ยวกับ"
+    },
+    "title": "สวัสดี เกี่ยวกับ",
+    "description": "{name}!! เกี่ยวกับ"
+  }
+}

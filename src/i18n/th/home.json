@@ -1,0 +1,10 @@
+{
+  "home": {
+    "metadata": {
+      "title": "เว็บ",
+      "description": "เว็บหน้าแรก"
+    },
+    "title": "สวัสดี",
+    "description": "{name}!!"
+  }
+}

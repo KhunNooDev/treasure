@@ -3,7 +3,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { useStore } from '@nanostores/react'
 import { $hideNav } from '@/store/layoutStore'
-import { HomeIcon, SearchIcon, PlusIcon, BellIcon, UserIcon } from 'lucide-react'
+import { Home, Search, Plus, Bell, User, Gamepad2 } from 'lucide-react'
 import { ThemeProvider } from 'next-themes'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -24,17 +24,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 'border-t-blue-500 text-blue-500': pathname === '/',
               })}
             >
-              <HomeIcon size={20} />
+              <Home size={20} />
             </li>
-            <li className='nav-item' title='Search'>
-              <SearchIcon size={20} />
+            <li
+              title='Game'
+              onClick={() => router.push('/game')}
+              className={cn('nav-item', {
+                'border-t-blue-500 text-blue-500': pathname === '/game',
+              })}
+            >
+              <Gamepad2 size={20} />
+            </li>
+            {/* <li className='nav-item' title='Search'>
+              <Search size={20} />
             </li>
             <li className='nav-item' title='Add'>
-              <PlusIcon size={20} />
+              <Plus size={20} />
             </li>
             <li className='nav-item' title='Notifications'>
-              <BellIcon size={20} />
-            </li>
+              <Bell size={20} />
+            </li> */}
             <li
               title='Profile'
               onClick={() => router.push('/profile')}
@@ -42,7 +51,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 'border-t-blue-500 text-blue-500': pathname === '/profile',
               })}
             >
-              <UserIcon size={20} />
+              <User size={20} />
             </li>
           </ul>
         </nav>

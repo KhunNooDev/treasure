@@ -1,15 +1,18 @@
 'use client'
+import { useTranslations } from 'next-intl'
 import { useRouter } from 'next/navigation'
 import { useStore } from '@nanostores/react'
+import _ from 'lodash'
+import { Home, Trash } from 'lucide-react'
 import words from '@/data/words.json'
 import { $user, deletePerformance } from '@/store/userStore'
-import _ from 'lodash'
-import { HomeIcon, TrashIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { ModeToggle } from '@/components/ModeToggle'
+import ThemeSwitcher from '@/components/ThemeSwitcher'
 import { Progress } from '@/components/ui/progress'
+import LocalSwitcher from '@/components/LocalSwitcher'
 
-export default function Profile() {
+export default function Index() {
+  const t = useTranslations('home')
   const router = useRouter()
   const user = useStore($user)
   const performance = user.performance
@@ -21,7 +24,8 @@ export default function Profile() {
   return (
     <main className='flex flex-col gap-4 p-4'>
       <h1 className='text-2xl font-bold'>Profile</h1>
-      <ModeToggle />
+      <ThemeSwitcher />
+      <LocalSwitcher />
       <section className='flex flex-col gap-2'>
         <h2 className='text-xl font-semibold'>Performance</h2>
         <div className='p-4'>
@@ -47,7 +51,7 @@ export default function Profile() {
                       size='icon'
                       className='w-10 bg-red-500 hover:bg-red-600'
                     >
-                      <TrashIcon size={16} />
+                      <Trash size={16} />
                     </Button>
                   </li>
                 )
@@ -59,7 +63,7 @@ export default function Profile() {
         </div>
       </section>
       <Button onClick={() => router.push('/')}>
-        <HomeIcon size={16} className='mr-2' /> Back to Home
+        <Home size={16} className='mr-2' /> Back to Home
       </Button>
     </main>
   )

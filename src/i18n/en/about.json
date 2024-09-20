@@ -1,0 +1,10 @@
+{
+  "about": {
+    "metadata": {
+      "title": "web | about",
+      "description": "web about"
+    },
+    "title": "hello about",
+    "description": "{name}!! about"
+  }
+}
